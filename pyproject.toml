@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aws-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Soichi Sumi <soichi.sumi@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.18.16"
+mysqlclient = "^2.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+localstack = "^0.12.16"
+awscli-local = "^0.14"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
